@@ -42,7 +42,7 @@ const Todos: React.FC = () => {
                         <div
                             key={task.id}
                             className={`flex items-center justify-between p-4 rounded-lg shadow-md ${
-                                task.completed ? 'bg-green-100' : 'bg-gray-200'
+                                task.completed ? 'bg-green-200' : 'bg-gray-200'
                             }`}
                         >
                             <div className="flex items-center">
